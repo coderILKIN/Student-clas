@@ -28,7 +28,7 @@ namespace Task3
             Console.Write("Write your age: ");
             byte age = byte.Parse(Console.ReadLine());
 
-            Console.WriteLine("~~~~~~~~~~~~~~~");
+            Console.WriteLine("");
 
             Student student = new Student(fullName, groupNo, age);
             student.Info();
